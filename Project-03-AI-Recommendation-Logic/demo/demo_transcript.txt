@@ -1,0 +1,49 @@
+DecodeLabs AI Internship - Project 3
+AI Recommendation Logic
+
+Dataset loaded successfully.
+Number of items: 32
+
+Enter at least 3 interests separated by commas:
+python, machine learning, automation
+
+User interests: python, machine learning, automation
+
+Top Recommendations:
+1. Machine Learning Starter
+   Category: Machine Learning
+   Difficulty: Beginner
+   Similarity Score: 0.5558
+   Reason: Recommended because it matches your interest in machine learning.
+
+2. Feature Engineering Basics
+   Category: Machine Learning
+   Difficulty: Intermediate
+   Similarity Score: 0.4854
+   Reason: Recommended because it matches your interest in machine learning.
+
+3. Excel Automation
+   Category: Automation
+   Difficulty: Beginner
+   Similarity Score: 0.3662
+   Reason: Recommended because it matches your interest in automation.
+
+4. Automation with Python
+   Category: Automation
+   Difficulty: Beginner
+   Similarity Score: 0.3562
+   Reason: Recommended because it matches your interest in automation.
+
+5. Python Web Scraping
+   Category: Automation
+   Difficulty: Intermediate
+   Similarity Score: 0.3015
+   Reason: Recommended because it matches your interest in automation.
+
+Output files saved:
+- outputs/sample_recommendations.csv
+- outputs/similarity_scores.png
+- outputs/results.txt
+
+To run the frontend:
+streamlit run app.py

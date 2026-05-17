@@ -1,0 +1,6 @@
+item_id,title,category,difficulty,tags,description,similarity_score,reason
+4,Machine Learning Starter,Machine Learning,Beginner,machine learning classification regression sklearn python,"Start with supervised learning, train-test split, and simple scikit-learn models.",0.5558444049696607,Recommended because it matches your interest in machine learning.
+22,Feature Engineering Basics,Machine Learning,Intermediate,machine learning features preprocessing scaling encoding,Prepare better input features for machine learning models.,0.4853989599535981,Recommended because it matches your interest in machine learning.
+27,Excel Automation,Automation,Beginner,python automation excel pandas reports,"Automate spreadsheet reading, cleaning, and report generation.",0.3662083960342314,Recommended because it matches your interest in automation.
+15,Automation with Python,Automation,Beginner,python automation scripts files excel tasks,"Automate repeated tasks using Python scripts, files, folders, and simple workflows.",0.35618124164459875,Recommended because it matches your interest in automation.
+32,Python Web Scraping,Automation,Intermediate,python automation scraping requests beautifulsoup data,Collect simple website data using Python requests and parsing.,0.30150193107148227,Recommended because it matches your interest in automation.

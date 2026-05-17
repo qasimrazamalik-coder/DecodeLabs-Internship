@@ -8,7 +8,7 @@ This repository contains my project work for the DecodeLabs Artificial Intellige
 - Domain: Artificial Intelligence
 - Batch: 2026
 - Total internship tasks: 4
-- Current completed task: Project 2
+- Current completed task: Project 3
 
 ## Projects
 
@@ -16,7 +16,7 @@ This repository contains my project work for the DecodeLabs Artificial Intellige
 |------------|--------------|--------|--------|
 | 01 | Rule-Based AI Chatbot | Completed | Project-01-Rule-Based-AI-Chatbot |
 | 02 | Data Classification Using AI | Completed | Project-02-Data-Classification-Using-AI |
-| 03 | Coming Soon | Pending | Project-03-Coming-Soon |
+| 03 | AI Recommendation Logic | Completed | Project-03-AI-Recommendation-Logic |
 | 04 | Coming Soon | Pending | Project-04-Coming-Soon |
 
 ## Skills Learned So Far
@@ -36,6 +36,13 @@ This repository contains my project work for the DecodeLabs Artificial Intellige
 - Accuracy, precision, recall, F1 score
 - Confusion matrix
 - Basic Streamlit frontend
+- Recommendation systems
+- Content-based filtering
+- User preference matching
+- TF-IDF vectorization
+- Cosine similarity
+- Top-N ranking
+- Streamlit frontend
 
 ## Repository Structure
 
@@ -53,8 +60,16 @@ DecodeLabs-Internship/
 |   |-- outputs/
 |   |-- docs/
 |   `-- demo/
-|-- Project-03-Coming-Soon/
-|   `-- README.md
+|-- Project-03-AI-Recommendation-Logic/
+|   |-- README.md
+|   |-- requirements.txt
+|   |-- main.py
+|   |-- app.py
+|   |-- data/
+|   |-- src/
+|   |-- outputs/
+|   |-- docs/
+|   `-- demo/
 `-- Project-04-Coming-Soon/
     `-- README.md
 ```
@@ -85,6 +100,21 @@ To run the Streamlit frontend:
 streamlit run app.py
 ```
 
+## How to Run Project 3
+
+From the root of this repository, run:
+
+```bash
+cd Project-03-AI-Recommendation-Logic
+python main.py
+```
+
+To run the Streamlit frontend:
+
+```bash
+streamlit run app.py
+```
+
 ## Note
 
-Future projects will be added as they are assigned by DecodeLabs. Projects 3 and 4 are only placeholder folders for now.
+Future projects will be added as they are assigned by DecodeLabs. Project 4 is only a placeholder folder for now.
