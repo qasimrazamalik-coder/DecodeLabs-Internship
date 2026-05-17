@@ -57,4 +57,6 @@ When the cleaned user message matches one of these commands, the chatbot prints 
 
 A fallback response is used when the chatbot does not understand the user's message. Instead of crashing or staying silent, it politely tells the user to try a supported command.
 
+In this project, the fallback method is a little more helpful than a simple random message. If the user types something close to a supported command, the chatbot suggests the closest command. If the message contains a useful keyword like `ai`, `python`, `internship`, or `project`, the chatbot suggests a related command.
+
 This makes the chatbot more user-friendly and keeps the program stable.

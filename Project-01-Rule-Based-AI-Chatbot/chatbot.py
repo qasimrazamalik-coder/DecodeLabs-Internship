@@ -1,5 +1,6 @@
 """A simple rule-based chatbot for the DecodeLabs AI Internship."""
 
+import difflib
 import random
 
 
@@ -81,6 +82,16 @@ FALLBACK_RESPONSES = [
     "I am still a simple rule-based bot. Please try another question from the menu.",
 ]
 
+KEYWORD_SUGGESTIONS = {
+    "ai": "Try asking: what is ai",
+    "artificial": "Try asking: what is ai",
+    "python": "Try asking: what is python",
+    "internship": "Try asking: internship help",
+    "task": "Try asking: project help",
+    "project": "Try asking: project help",
+    "name": "Try asking: what is your name",
+}
+
 
 def clean_text(text):
     """Clean user input so matching becomes easier."""
@@ -103,6 +114,26 @@ def show_help():
     print("- bye / exit / quit / goodbye")
 
 
+def get_fallback_response(user_message):
+    """Give a helpful fallback response with a suggested command."""
+    possible_commands = list(RESPONSES.keys()) + list(EXIT_COMMANDS)
+    close_matches = difflib.get_close_matches(
+        user_message,
+        possible_commands,
+        n=1,
+        cutoff=0.6,
+    )
+
+    if close_matches:
+        return f"I did not understand that exactly. Did you mean '{close_matches[0]}'?"
+
+    for keyword, suggestion in KEYWORD_SUGGESTIONS.items():
+        if keyword in user_message:
+            return f"I am not sure how to answer that exact question. {suggestion}."
+
+    return f"{random.choice(FALLBACK_RESPONSES)} Example: 'what is ai' or 'help'."
+
+
 def get_response(user_message):
     """Return a chatbot response based on predefined rules."""
     if user_message in RESPONSES:
@@ -114,7 +145,7 @@ def get_response(user_message):
 
         return response
 
-    return random.choice(FALLBACK_RESPONSES)
+    return get_fallback_response(user_message)
 
 
 def main():
