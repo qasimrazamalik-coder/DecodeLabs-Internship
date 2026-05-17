@@ -1,0 +1,55 @@
+DecodeLabs AI Internship - Project 2 Results
+Project: Data Classification Using AI
+
+Dataset shape: (150, 6)
+Feature names: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+Target classes: ['setosa', 'versicolor', 'virginica']
+Training samples: 120
+Testing samples: 30
+
+KNN Model Result (k=5)
+Accuracy: 0.9333 (93.33%)
+Precision: 0.9444 (94.44%)
+Recall: 0.9333 (93.33%)
+F1 Score: 0.9327 (93.27%)
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  2  8]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.83      1.00      0.91        10
+   virginica       1.00      0.80      0.89        10
+
+    accuracy                           0.93        30
+   macro avg       0.94      0.93      0.93        30
+weighted avg       0.94      0.93      0.93        30
+
+K Value Testing:
+K=1: 0.9667 (96.67%)
+K=2: 0.9333 (93.33%)
+K=3: 0.9333 (93.33%)
+K=4: 0.9333 (93.33%)
+K=5: 0.9333 (93.33%)
+K=6: 0.9333 (93.33%)
+K=7: 0.9667 (96.67%)
+K=8: 0.9333 (93.33%)
+K=9: 0.9667 (96.67%)
+K=10: 0.9667 (96.67%)
+K=11: 0.9667 (96.67%)
+K=12: 0.9667 (96.67%)
+K=13: 0.9667 (96.67%)
+K=14: 0.9667 (96.67%)
+K=15: 0.9667 (96.67%)
+
+Best K: 1
+Best K Accuracy: 0.9667 (96.67%)
+
+Generated Output Files:
+- outputs/confusion_matrix.png
+- outputs/k_value_accuracy.png
+- outputs/results.txt
