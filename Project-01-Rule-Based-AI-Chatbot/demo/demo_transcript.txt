@@ -1,0 +1,36 @@
+Welcome to DecodeBot!
+This is a simple rule-based AI chatbot.
+Type 'help' to see example commands or 'bye' to exit.
+
+You: hello
+DecodeBot: Hello! Welcome to the Rule-Based AI Chatbot.
+
+You: what is your name
+DecodeBot: My name is DecodeBot.
+
+You: how are you
+DecodeBot: I am running smoothly. Thanks for asking!
+
+You: what can you do
+DecodeBot: I can answer predefined questions about AI, Python, and this internship project.
+
+You: what is ai
+DecodeBot: AI means Artificial Intelligence. It is the field of making machines perform tasks that usually need human intelligence.
+
+You: what is python
+DecodeBot: Python is a popular programming language known for simple syntax and readability.
+
+You: internship help
+DecodeBot: This internship has 4 tasks in total. Right now, Project 1 is the rule-based chatbot.
+
+You: project help
+DecodeBot: Project 1 is about creating a simple rule-based chatbot with predefined responses.
+
+You: thanks
+DecodeBot: You're welcome!
+
+You: unknown question
+DecodeBot: Sorry, I only understand predefined questions right now. Type 'help' for examples.
+
+You: bye
+DecodeBot: Goodbye! Thanks for chatting.
